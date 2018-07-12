@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Batalha Naval</string>
-    <string name="_1_jogador">1 Jogador</string>
-    <string name="_2_jogador">2 Jogador</string>
-    <string name="historico">Historico</string>
-    <string name="perfis_de_jogo">Perfis de Jogo</string>
-    <string name="cr_ditos">Créditos</string>
-    <string name="name">Nome</string>
+        <string name="app_name">Batalha Naval</string>
+        <string name="_1_jogador">1 Jogador</string>
+        <string name="_2_jogador">2 Jogador</string>
+        <string name="historico">Historico</string>
+        <string name="perfis_de_jogo">Perfis de Jogo</string>
+        <string name="cr_ditos">Créditos</string>
+        <string name="name">Nome</string>
     <string name="camara_em_utilizacao">A camara está ocupada</string>
     <string name="wins">Vitórias</string>
     <string name="defeats">Derrotas</string>
