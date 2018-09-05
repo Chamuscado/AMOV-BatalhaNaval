@@ -4,4 +4,12 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="photo_background">#00ffffff</color>
+    <color name="sea">#0080ff</color>
+    <color name="boardLines">#000000</color>
+    <color name="ship">#949494</color>
+    <color name="conflictPos">#ff0000</color>
+    <color name="failedShot">#ff6200</color>
+    <color name="successfulShot">#11ff00</color>
+    <color name="borderShips">#000000</color>
+    <color name="target">#000000</color>
 </resources>

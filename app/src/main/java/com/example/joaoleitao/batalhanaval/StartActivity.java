@@ -16,24 +16,26 @@ public class StartActivity extends Activity {
     }
 
     public void OnOnePlayerClick(View view) {
-        Toast.makeText(this,"OnOnePlayerClick",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "OnOnePlayerClick", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, PrepareGameActivity.class);
+        startActivity(intent);
     }
 
     public void OnTwoPlayerClick(View view) {
-        Toast.makeText(this,"OnTwoPlayerClick",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "OnTwoPlayerClick", Toast.LENGTH_SHORT).show();
     }
 
     public void OnProfilesClick(View view) {
         //Toast.makeText(this,"OnProfilesClick",Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this,ProfilesActivity.class);
+        Intent intent = new Intent(this, ProfilesActivity.class);
         startActivity(intent);
     }
 
     public void OnHistClick(View view) {
-        Toast.makeText(this,"OnHistClick",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "OnHistClick", Toast.LENGTH_SHORT).show();
     }
 
     public void OnCreditsClick(View view) {
-        Toast.makeText(this,"OnCreditsClick",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "OnCreditsClick", Toast.LENGTH_SHORT).show();
     }
 }

@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.graphics.Bitmap;
 
+import com.example.joaoleitao.batalhanaval.BatalhaNaval.Game;
 import com.example.joaoleitao.batalhanaval.BatalhaNaval.Perfil;
 
 import java.io.File;
@@ -19,7 +20,7 @@ import java.util.List;
 
 public class BatalhaNavalApp extends Application{
     private static final String PERFIS = "perfis.dat";
-    //public static Chess game;
+    public static Game game;
     public static Perfil perfilSelecionado;
     public static List<Perfil> perfis;
     public static ObjectOutputStream out;
